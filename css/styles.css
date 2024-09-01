@@ -28,11 +28,62 @@ html {
 }
 
 body{
+    
     font-family: Poppins;
     font-size: 1.6rem;
     line-height: 1.5;
 }
 
+html, body{
+    height: 100%;
+}
+
 h1{
+    font-size: 2.6rem;
+}
+h2{
     font-size: 2.4rem;
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+.container{
+    min-height: 100%;
+    display: flex;
+}
+
+.bg-container{
+    flex: 1 0 0%;
+    background-image: url(../img/nathan-dumlao-zTZRZV86GhE-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.logo{
+    transform: translateY(150%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.logo-img{
+    height: 135px;
+    width: auto;
+}
+
+.odin-font{
+    font-family: logo;
+    font-size: 10rem;
+    color: #fff;
+    margin: 0;
+}
+
+.info-container{
+    flex: 1.5 0 0;
+    margin: 70px 40px;
 }
