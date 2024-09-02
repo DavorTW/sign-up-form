@@ -1,6 +1,7 @@
 :root{
     --light-gray: #e9ecef;
     --main-color: #7f5539;
+    --error: #d00000;
 }
 
 @font-face {
@@ -176,4 +177,15 @@ button:hover{
     color: var(--main-color);
     font-weight: bold;
     cursor: pointer;
+}
+
+input:invalid{
+    border: 0.2rem solid var(--error);
+}
+
+input:focus{
+   outline: 0.2rem solid #0496ff;
+   border: none;
+   box-shadow: 0 6px 2px -2px gray;
+
 }
